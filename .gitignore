@@ -1,5 +1,19 @@
+# Ignore virtual environment
+venv/
+backend/venv/
+
+# Ignore compiled Python files
 __pycache__/
 *.pyc
-firebase/firebase_setup.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables & credentials
 .env
-model/
+firebase/firebase_setup.json
+
+# Ignore large model files
+*.pt
+*.h5
+*.pkl
